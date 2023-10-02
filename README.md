@@ -14,3 +14,26 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+## Flutter Version Requirement
+
+- Dart SDK >=3.1.2 <4.0.0
+- Flutter: 3.13.4
+
+## Running the App
+
+**Get Dependencies**: Run the following command to fetch the project's dependencies listed in the pubspec.yaml file:
+
+```bash 
+flutter pub get
+```
+
+**Launch the App**: Run the following command to build and launch the Flutter app on your connected device or emulator:
+
+```bash 
+flutter run
+```
+
+**Launch by FVM**: I use fvm flutter version 3.13.6
+
