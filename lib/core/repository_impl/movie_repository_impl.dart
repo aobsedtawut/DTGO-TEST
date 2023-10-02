@@ -26,13 +26,14 @@ class MovieRepositoryImpl extends MovieRepository {
         final cachedMovies =
             cachedData!.map((jsonStr) => Movie.fromString(jsonStr)).toList();
         return cachedMovies;
+      } else {
+        final results = await networkMovieResource.getAllData();
+        List<String> serializedMovies = results.map((movie) {
+          return json.encode(movie.toJson());
+        }).toList();
+        await test(serializedMovies);
+        return results;
       }
-      final results = await networkMovieResource.getAllData();
-      List<String> serializedMovies = results.map((movie) {
-        return json.encode(movie.toJson());
-      }).toList();
-      await test(serializedMovies);
-      return results;
     } catch (e) {
       rethrow;
     }
