@@ -31,7 +31,7 @@ class MovieRepositoryImpl extends MovieRepository {
         List<String> serializedMovies = results.map((movie) {
           return json.encode(movie.toJson());
         }).toList();
-        await test(serializedMovies);
+        await setList(serializedMovies);
         return results;
       }
     } catch (e) {
@@ -59,7 +59,7 @@ class MovieRepositoryImpl extends MovieRepository {
     }
   }
 
-  Future<void> test(List<String> test) async {
+  Future<void> setList(List<String> test) async {
     try {
       await cacheRepository!.setListMovie(test);
     } catch (e) {
@@ -70,9 +70,8 @@ class MovieRepositoryImpl extends MovieRepository {
   Future<LocalCache> getListMovieLocal() async {
     try {
       final result = await cacheRepository.getLocalCache();
-      final List<String>? tesdt = result.listMovieDefalut;
-
-      return LocalCache(listMovieDefalut: tesdt);
+      final List<String>? listMovie = result.listMovieDefalut;
+      return LocalCache(listMovieDefalut: listMovie);
     } catch (e) {
       rethrow;
     }
