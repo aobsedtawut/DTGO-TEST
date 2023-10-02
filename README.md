@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 ## Flutter Version Requirement
 
 - Dart SDK >=3.1.2 <4.0.0
-- Flutter: 3.13.4
+- Flutter: 3.13.6
 
 ## Running the App
 
@@ -41,6 +41,5 @@ flutter run
 
 I don't use the https://developer.imdb.com/ API call directly but call the hub api with RapidApi instead.
 
-RAPID API Call to https://developer.imdb.com/ again.
-ิbecause IMDb relate to aws service.
+RAPID API Call to https://developer.imdb.com/ again because IMDb related to aws service.
 
