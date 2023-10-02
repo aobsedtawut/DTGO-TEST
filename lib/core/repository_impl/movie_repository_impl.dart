@@ -21,7 +21,7 @@ class MovieRepositoryImpl extends MovieRepository {
   Future<List<Movie>> getAllData() async {
     try {
       final localCache = await getListMovieLocal();
-      if (localCache.listMovieDefalut == null) {
+      if (localCache == null) {
         final List<String>? cachedData = localCache.listMovieDefalut;
         final cachedMovies =
             cachedData!.map((jsonStr) => Movie.fromString(jsonStr)).toList();
