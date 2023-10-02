@@ -43,4 +43,11 @@ I don't use the https://developer.imdb.com/ API call directly but call the hub a
 
 RAPID API Call to https://developer.imdb.com/ again.
 ิbecause IMDb relate to aws service.
+![Uploading Screenshot 2023-10-02 at 9.29.39 PM.png…]()
+![Uploading Screenshot 2023-10-02 at 9.30.17 PM.png…]()
+![Uploading Screenshot 2023-10-02 at 9.29.53 PM.png…]()![Uploading Simulator Screenshot - iPhone 14 Pro Max - 2023-09-30 at 19.21.32.png…]()
+
+![Uploading Screenshot 2023-10-02 at 9.30.03 PM.png…]()
+
+
 
