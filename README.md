@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 ## Flutter Version Requirement
 
 - Dart SDK >=3.1.2 <4.0.0
-- Flutter: 3.13.4
+- Flutter: 3.13.6
 
 ## Running the App
 
