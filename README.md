@@ -41,6 +41,5 @@ flutter run
 
 I don't use the https://developer.imdb.com/ API call directly but call the hub api with RapidApi instead.
 
-RAPID API Call to https://developer.imdb.com/ again.
-ิbecause IMDb relate to aws service.
+RAPID API Call to https://developer.imdb.com/ again because IMDb related to aws service.
 
