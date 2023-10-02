@@ -37,3 +37,10 @@ flutter run
 
 **Launch by FVM**: I use fvm flutter version 3.13.6
 
+**API  CALL IMDB MOVIE** 
+
+I don't use the https://developer.imdb.com/ API call directly but call the hub api with RapidApi instead.
+
+RAPID API Call to https://developer.imdb.com/ again.
+ิbecause IMDb relate to aws service.
+
